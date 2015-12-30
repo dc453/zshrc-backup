@@ -57,6 +57,7 @@ export PATH="/usr/local/share/npm/bin:/Users/davidcase/.rvm/gems/ruby-2.1.1/bin:
 export TRANSLATIONBUNDLERDIR="/Users/davidcase/workspace/bundler"
 export ANDROID_HOME="/Users/davidcase/android-sdk"
 export PATH=$PATH:/Users/davidcase/android-sdk/platform-tools:/Users/davidcase/android-sdk/tools
+export PATH=$PATH:/Users/davidcase/.npm-packages
 GIT_MERGE_AUTOEDIT=yes
 
 # aliases
@@ -68,5 +69,5 @@ alias proj='cd /Users/davidcase/workspace'
 export CLOSURE_PATH=/usr/local/Cellar/closure-compiler/20141023/libexec/
 ## NOTE: Google Closure Compiler is updated regularly. The date portion of the above path is dependent on the version you install and will be different that what is above.
 
-"/Users/davidcase/.nvm/nvm.sh" ] && . "/Users/davidcase/.nvm/nvm.sh" # This loads nvm
-
+NPM_PACKAGES=/Users/case/.npm-packages
+NODE_PATH="/lib/node_modules:$NODE_PATH"
